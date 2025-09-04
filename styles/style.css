@@ -219,22 +219,22 @@
 }
 
 .core {
-  transition: fill 0.3s linear 0.03s:
+  transition: fill 0.3s linear 0.03s;
 }
 
 .like-icon:hover .core {
   fill: var(--accent-color);
-  transition: fill 0.3s linear 0s:
+  transition: fill 0.3s linear 0s;
 }
 
 .like-icon:active .core {
   fill: var(--animation-fill-color);
-  transition: fill 0.3s linear 0s:
+  transition: fill 0.3s linear 0s;
 }
 
 .like-icon.is-liked .core {
   fill: var(--animation-fill-color);
-  transition: fill 0.3s linear 0s:
+  transition: fill 0.3s linear 0s;
 }
 
 .main-body {
